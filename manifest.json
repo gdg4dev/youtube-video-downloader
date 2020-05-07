@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Easy-Downloader YT",
+    "version": "1.4.3",
+    "web_accessible_resources": ["easy-download-YT.png", "src/youtubedl.js", "src/style.css", "src/loader.js", "src/background.js"],
+    "description": "Downloading videos from YouTube is easier than before.. Enjoy the YouTube Videos Without Ads For Free   ",
+    "content_scripts": [{
+        "matches": ["https://*.youtube.com/*"],
+        "js": ["src/loader.js"],
+        "css": ["src/style.css"]
+    }],
+    "permissions": [
+        "downloads",
+        "tabs",
+        "webRequest", "webRequestBlocking", "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["src/background.js"]
+    },
+    "browser_action": {
+        "default_icon": "easy-download-YT.png",
+        "default_popup": "ytdl.html"
+    }
+}

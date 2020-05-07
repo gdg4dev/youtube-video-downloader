@@ -1,0 +1,220 @@
+#dropdowndownloadlist {
+    position: absolute;
+    width: 8cm;
+    height: .9cm;
+    background: #fff;
+    right: 134px;
+    z-index: 9999999;
+    box-shadow: 6px 13px 20px 0 rgba(0, 0, 0, .2);
+    bottom: 0;
+    top: 0;
+    border-radius: 3px;
+    visibility: hidden
+}
+
+.ytdlOptions{
+    position: relative;
+    width: 8cm;
+    height: .9cm;
+    background: #fff;
+    right: 134px;
+    z-index: 99999999999999;
+    box-shadow: 6px 13px 20px 0 rgba(0, 0, 0, .2);
+    bottom: 0;
+    top: 0;
+    border-radius: 3px;
+    visibility: hidden
+}
+
+.youtubeSuperLeaderOverallAdArea {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.youtubeSuperLeaderBoardAdHolder {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#show-ad {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#merch-shelf {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#player-ads {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#pla-shelf {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.overlay-ads {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.ytp-ad-progress-list {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#ytp-ad-overlay-container {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#masthead-ad {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.ytp-ad-overlay-ad-info-dialog-container {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.video-ads .ytp-ad-module {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.ytp-ad-module {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.video-ads {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.style-scope .ytd-iframe-companion-renderer {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.ytp-ad-persistent-progress-bar-container {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.ytd-player-legacy-desktop-watch-ads-renderer {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.ytp-ce-element {
+    display: none
+}
+
+#ytp-ad-overlay-slot {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#ddcntr {
+    background: #fff;
+    right: 134px;
+    z-index: 9999999;
+    box-shadow: 6px 13px 20px 0 rgba(0, 0, 0, .2);
+    border-radius: 3px
+}
+
+#closeddbtn {
+    float: right;
+    background: #f2f4f9;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    z-index: 99999991;
+    position: absolute;
+    right: 0
+}
+
+.mylistcontent {
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 99999999
+}
+
+.mylistcontent button {
+    text-decoration: none;
+    color: #23272c;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    background: 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px;
+    font-weight: bolder;
+    font-family: inherit
+}
+
+.mylistcontent:hover button {
+    color: #fff;
+    transition-duration: .35s
+}
+
+.mylistcontent:hover {
+    background: #23272c;
+    transition-duration: .5s
+}
+
+#downloadBtn {
+    color: #aaa !important
+}
+
+#iconimgdl {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    filter: hue-rotate(175deg) grayscale(1);
+    right: 27%;
+    top: 9%
+}
+
+#iconimgdl:hover {
+    filter: hue-rotate(-2deg) grayscale(0);
+    transition-duration: .2s
+}
+
+#downloadBtn:hover #iconimgdl {
+    filter: hue-rotate(-2deg) grayscale(0);
+    transition-duration: .4s
+}
+
+.l-1-list {
+    visibility: hidden;
+}
+
+#coverDivID {
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    z-index: 9999999999999;
+    position: absolute;
+    visibility: hidden;
+}
+
+#ytdlOption1{
+    visibility: hidden;
+}
+
+#ytdlOption2{
+    visibility: hidden;
+}
+#ytdlOption3{
+    visibility: hidden;
+}
